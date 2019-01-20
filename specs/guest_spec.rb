@@ -17,7 +17,7 @@ class TestGuest < Minitest::Test
 	end
 
 	def test_guest_has_wallet
-		assert_equal(150, @guest2.wallet)
+		assert_equal(15, @guest3.wallet)
 	end
 
 end
